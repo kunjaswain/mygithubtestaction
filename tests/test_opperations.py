@@ -1,0 +1,19 @@
+from src.math_opperatons import add,sub,mul,div
+def test_add():
+    assert add(2,3)==5
+    assert add(-1,1)==0
+    assert add(10,20)==30
+def test_sub():
+    assert sub(5,5)==0
+    assert sub(-1,-5)==4
+    assert sub(20-10)==10
+def test_mul():
+    assert mul(1,20)==20
+    assert mul(3,5)==15
+    assert mul(-3,2)==-6
+    assert mul(-2,-3)==6
+def test_div():
+    assert div(10,2)==5
+    assert div(9,3)==3
+    assert div(-6,2)==-3
+    assert div(-8,-4)==2
