@@ -1,6 +1,2 @@
 pandas
-<<<<<<< HEAD
 pytest
-=======
-pytest
->>>>>>> 0a9c614d7fd31e3aab4cea5fefe602ddbaa8d5b9
